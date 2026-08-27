@@ -65,7 +65,7 @@ test("nested frame", async ({ page }) => {
 })
 
 
-test.only("nested frame assign", async ({ page }) => {
+test("nested frame assign", async ({ page }) => {
     await page.goto("https://letcode.in/frame")
 
     const frame=await page.frameLocator('//iframe[@id="firstFr"]')

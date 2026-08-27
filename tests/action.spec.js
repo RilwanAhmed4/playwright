@@ -70,7 +70,7 @@ test("scroll", async({page})=>{
     await page.pause()
 })
 
-test.only("drag and drop", async({page})=>{
+test("drag and drop", async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     // const source = page.locator('//div[@id="draggable"]')

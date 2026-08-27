@@ -46,7 +46,7 @@ test("alert with OK # cancel",async({page})=>{
 
 
 
-test.only("alert with textbox",async({page})=>{
+test("alert with textbox",async({page})=>{
     await page.goto("https://demo.automationtesting.in/Alerts.html#google_vignette")
 
     await page.locator('//a[@href="#Textbox"]').click()

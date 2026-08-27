@@ -90,7 +90,7 @@ test('page navigation', async ({ page }) => {
 })
 
 
-test.only("page navigate", async ({ page }) => {
+test("page navigate", async ({ page }) => {
   await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
   await page.locator('[name="username"]').fill('Admin');
   await page.locator('[type="password"]').fill('admin123');

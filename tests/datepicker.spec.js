@@ -40,7 +40,7 @@ import {test,expect} from  '@playwright/test'
 
 
 
-    test.only("Date Pickers_2",async({page})=>{
+    test("Date Pickers_2",async({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com/")
 

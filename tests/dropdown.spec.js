@@ -25,7 +25,7 @@ test("multi-select dropdown",async({page})=>{
 })
 
 
-test.only("assignment mulitple dropdown",async({page})=>{
+test("assignment mulitple dropdown",async({page})=>{
     await page.goto("https://letcode.in/dropdowns")
     await page.locator('//select[@id="fruits"]').selectOption("Apple")
     await expect(page.locator('//select[@id="fruits"]/parent::div/following-sibling::div/descendant::p')).toHaveText("You have selected Apple")

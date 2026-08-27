@@ -18,7 +18,7 @@ test("login using built-in locators",async({page})=>{
 });
 
 
-test.only("login using xpath",async({page})=>{
+test("login using xpath",async({page})=>{
 
   await page.goto("https://www.facebook.com/");
 

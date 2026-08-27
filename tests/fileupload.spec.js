@@ -12,7 +12,7 @@ test("singlefile upload", async ({ page }) => {
     await page.pause()
 })
 
-test.only("multiple file upload", async ({ page }) => {
+test("multiple file upload", async ({ page }) => {
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     await page.locator('//input[@id="multipleFilesInput"]').setInputFiles(['D:/Playwright/Playwright_june/screenshot/automation.png','D:/Playwright/Playwright_june/screenshot/dynamicTable.png'])
@@ -45,3 +45,4 @@ test("file download", async ({page})=>{
 
     await page.waitForTimeout(8000)
 })
+

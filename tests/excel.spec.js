@@ -15,7 +15,8 @@ for (let data of excelData) {
   });
 }
 
-// npm install xlsx
+
+//npm install xlsx
 // const workbook=xlsx.readFile("D:/EXCEL/login_cred.xlsx");
 // const sheet=workbook.Sheets['LOGIN'];
 // const excelData=xlsx.utils.sheet_to_json(sheet);
